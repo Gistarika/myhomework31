@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1440px;
+}
+.megaota{
+    background-color: #014E56;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 761px;
+    margin-top: 73px;
+    margin-bottom: 120px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+ul li{
+    font-family: "Livvic", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: white;
+}
+.btn{
+    width: 153px;
+height: 48px;
+opacity: 1;
+top: 73px;
+left: 1122px;
+background: none;
+border: 2px solid #FFFFFF;
+font-family: "Livvic", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+border-radius: 24px;
+color: white;
+transition: all ease-in 0.6s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: all ease-in 0.6s;
+    cursor: pointer;
+}
+.ota{
+ display: flex;
+ justify-content: center;
+ gap: 120px;
+ align-items: center;
+}
+.left{
+font-family: "Livvic", sans-serif;
+font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+color: white;
+margin-bottom: 56px;
+}
+.right{
+font-family: "Livvic", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: white;
+width: 730px;
+}
+.text{
+font-family: "Livvic", sans-serif;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: white;
+margin-top: 71px;
+}
+.megaota2{
+   background-color:#004047 ; 
+   display: flex;
+   flex-direction: column;
+   height: 517px;
+}
+.card{
+    width: 350px;
+height: 274.72576904296875px;
+background-color: #012F34;
+padding-top: 44px;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    gap: 30px;
+}
+.title{
+font-family: "Livvic", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #79C8C7;
+text-align: center;
+
+}
+.img{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.subtitle{
+font-family: "Livvic", sans-serif;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+.megaota3{
+   background-color: #012F34; 
+   height: 355px;
+   display: flex;
+   flex-direction: column;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 56px;
+}
+.bbtn{
+    border: 2px solid #012F34;
+    color: #012F34;
+    margin-top: 76px;
+}
+.bbtn:hover{
+     border: 2px solid white;
+    color: white;
+    background: none;
+}
+.megaota4{
+    background-color: #F67E7E;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.teext{
+    color: #012F34;
+    margin-top: 76px;
+}
+.superpuperrow{
+    display: flex;
+    justify-content: space-between;
+    gap: 260px;
+}
+.superrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.bars{
+ display: none;
+}
+@media only screen and (max-width:798px) {
+    header{
+        gap: 150px;
+    }
+    .ota{
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+    .left{
+        margin-bottom: 0;
+    }
+    .txt{
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25%;
+    }
+    nav{
+        width: 780px;
+        flex-wrap: wrap;
+        margin-bottom: 70%;
+        padding-bottom: 50px;
+    }
+   
+    .megaota2{
+        height: 900px;
+    }
+    .row{
+        gap: 49px;
+    }
+    .row img{
+        width: 113px;
+    }
+    .teext{
+        font-size: 32px;
+        width: 100%;
+    }
+    .superpuperrow{
+        gap: 83px;
+    }
+}
+@media only screen and (max-width:520px) {
+    ul{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    header{
+        justify-content: center;
+    }
+    .megaota, .megaota2, .megaota3, .megaota4{
+        width: 100%;
+    }
+    .right{
+        width: 327px;
+    }
+    .megaota{
+        height: 590px;
+    }
+    nav{
+        width: 289px;
+        margin-bottom: 95%;
+        padding-bottom: 100%;
+    }
+    .txt{
+        margin-right: 5%;
+    }
+    .text{
+        width: 100%;
+    }
+    .row{
+       flex-wrap: wrap;
+       width: 159px;
+       margin: 0 auto;
+      
+    }
+    .megaota3{
+        height: 517px;
+         padding-top:15% ;
+      
+    }
+    .megaota2{
+          height: 1200px;
+    }
+    .superpuperrow{
+        flex-direction: column;
+        gap: 2px;
+        justify-content: center;
+    }
+    .bbbtn{
+        margin-top: 0;
+        margin: 0 auto;
+    }
+    .superrow{
+        flex-direction: column;
+    }
+}
